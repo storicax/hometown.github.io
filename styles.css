@@ -1,0 +1,164 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+  font-family: vacation;
+  src: url(vacation.ttf);
+}
+@font-face {
+  font-family: orewa;
+  src: url(orewa.otf);
+}
+
+.hero{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://media.cntraveler.com/photos/59404f9157d01262a807f8c9/4:3/w_4540,h_3405,c_limit/GettyImages-175386102.jpg");
+    height: 300px;
+    width: 758px;
+    background-size: cover;
+    align-items: center;
+}
+#title-text{
+    background: #1D3557;
+    padding: 3px 10px 0px 10px;
+    margin: 55px 0px 10px 10px;
+    font-family: 'Cardo', serif;
+    color:aliceblue;
+    border-radius: 12px;
+}
+
+.hero:hover{
+    background-image: url("https://media3.giphy.com/media/3ohjUZWeAFKLIK9wDS/giphy.gif?cid=ecf05e4711rz9f7yn0715v6g7rl7mld421aytuhg79hpaycb&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    object-fit: cover;
+}
+
+#ad-texat{
+    font-size: 17px;
+    font-weight: regular;
+    background: #457B9D;
+    padding: 3px 0px 0px 0px;
+    margin: 5px 10px;
+    color:aliceblue;
+    border-radius: 12px;
+    width: 400px;
+} 
+
+.activity{
+    background: #F1FAEE;
+    padding:20px;
+    margin: 0px;
+} 
+
+#fonte{
+    display: block;
+    margin: 10px auto 30px auto;
+    font-size: 20px;
+    border-bottom: 3px solid #1b5f96;
+    width: 360px;
+}
+
+
+.top{
+    width: 720px;
+     height: 250px;
+     display: flex;  
+     padding: 0px;
+     margin: 14px;  
+}
+/* 
+.top1,.top2,.top3{
+    padding: 0px;
+    margin: 14px;
+} */
+
+.top h4{
+    margin-bottom: 2px;
+}
+.top p{
+    padding: 20px;
+    margin-top: 0;
+}
+/* 
+.top h4{
+    padding:0px 10px;
+}
+
+.top2 h4{
+    padding: 0px 40px;
+} 
+
+ .top2 p{
+    padding: 0px 30px;
+}  */
+
+
+
+.activity h3{
+    font-size: 23px;
+    color: #1D3557;
+    font-family: cardo,sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+
+
+img {
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    height: 100px;
+}
+
+.top1 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+.guide-sections{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    background: linear-gradient(#269BDF,#95D0CD);
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;  
+    align-items: start;
+}
+
+.guide-info h3{
+     font-size: 23px;
+}
+
+.guide-sections img{
+     border-radius: 10px;
+     width: 150px;
+     height: 230px;
+     border: 2px solid white;
+}
+
+.guide-info p{
+     font-style: italic;
+     margin-left: 10px;
+}
